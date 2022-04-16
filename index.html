@@ -26,13 +26,27 @@
         .content {
             width: 800px;
             margin: 0 auto;
-            height: calc(100vh - 150px);
+            min-height: calc(100vh - 150px);
+        }
+
+        .content-image {
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .content-image img {
+            width: 100%;
+            position: absolute;
+            top: -95px;
+            left: 0;
         }
 
         .content-title {
             text-align: center;
             font-size: 25px;
-            padding: 50px;
+            padding: 25px;
         }
 
         .content-desc p {
@@ -52,6 +66,9 @@
 <body>
     <header>陕西天效环境建设有限公司</header>
     <div class="content">
+        <div class="content-image">
+            <img src="./image/1.jpg" alt="">
+        </div>
         <div class="content-title">企业简介</div>
         <div class="content-desc">
             <p>陕西天效油田技术服务有限公司位于陕西省西安市经开区未央路。</p>
