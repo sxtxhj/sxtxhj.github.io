@@ -31,7 +31,7 @@
         for (var k in nav) {
             var item = nav[k];
             if (urlName === k) {
-                html += '<li><a class="nav-a" style="border-bottom: 2px solid #00BFFF;font-weight: bolder;" data-id="' + item.id + '" href="' + item.href + '">' + item.name + '</a></li>';
+                html += '<li><a class="nav-a" style="border-bottom: 2px solid rgb(0, 122, 204);font-weight: bolder;" data-id="' + item.id + '" href="' + item.href + '">' + item.name + '</a></li>';
             } else {
                 html += '<li><a class="nav-a" data-id="' + item.id + '" href="' + item.href + '">' + item.name + '</a></li>'; 
             }
